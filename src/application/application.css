@@ -1,0 +1,31 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.fondoSuperior{
+	-fx-background-image:url("../view/sky.jpeg");
+	-fx-background-size:100.0%;
+	-fx-background-repeat: no-repeat;
+}
+
+.icono{
+	-fx-background-image:url("../view/profilephoto.png");
+}
+
+.fondoAbajo{
+	-fx-background-color: #FFAE00;
+}
+
+.boton{
+	-fx-background-color: #FFAE00;
+	-fx-background-radius: 7.0;
+}
+.boton:hover{
+	-fx-text-fill: #FFAE00;
+	-fx-background-color: white;
+	-fx-border-color: #FFAE00;
+	-fx-border-width: 1.0 1.0 1.0 1.0;
+	-fx-border-radius: 7.0;
+}
+.letra{
+	-fx-font-family: Poiret One;
+}
