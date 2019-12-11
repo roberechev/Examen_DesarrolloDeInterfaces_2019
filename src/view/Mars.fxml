@@ -46,12 +46,12 @@
                               </ImageView>
                               <JFXTextField focusColor="BLACK" promptText="Username" styleClass="letra">
                                  <VBox.margin>
-                                    <Insets top="20.0" />
+                                    <Insets top="15.0" />
                                  </VBox.margin>
                               </JFXTextField>
                               <JFXTextField focusColor="BLACK" promptText="Password" styleClass="letra">
                                  <VBox.margin>
-                                    <Insets top="20.0" />
+                                    <Insets top="15.0" />
                                  </VBox.margin>
                               </JFXTextField>
                               <JFXButton onAction="#cambio" styleClass="boton" text="Let me in!" textFill="WHITE">
