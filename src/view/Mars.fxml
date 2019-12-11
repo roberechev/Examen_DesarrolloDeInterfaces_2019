@@ -4,6 +4,7 @@
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -38,7 +39,7 @@
                                  <VBox.margin>
                                     <Insets bottom="20.0" />
                                  </VBox.margin></Label>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fx:id="im" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@profilephoto.png" />
                                  </image>
@@ -60,6 +61,14 @@
                               </JFXButton>
                            </children>
                         </VBox>
+                        <Label text="Guest access..." GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                           <GridPane.margin>
+                              <Insets bottom="10.0" right="10.0" />
+                           </GridPane.margin>
+                           <tooltip>
+                              <Tooltip text="Un 10 no?" />
+                           </tooltip>
+                        </Label>
                      </children>
                   </GridPane>
                </center>
